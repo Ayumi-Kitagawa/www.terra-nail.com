@@ -1,0 +1,62 @@
+ #conts .item{
+    margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------
+  ameblo news
+------------------------------------------------------------*/
+
+#conts dl {
+    margin: 0 4px 0 10px;
+}
+#conts dt {
+    background: url("/img/common/icon/icon05.gif") no-repeat scroll right 6px transparent;
+    clear: left;
+    color: #999999;
+    float: left;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-right: 16px;
+}
+#conts dd {
+    background: url("/img/common/line03.gif") repeat-x scroll left bottom transparent;
+    padding: 12px 0 5px 7.7em;
+}
+
+.rslides-wrapper{
+    border: 5px solid #BFA252;
+}
+
+@media only screen and (max-width: 674px){
+    #conts dt{
+        float: none;
+        font-size: 12px;
+        background: none;
+    }
+
+    #conts dd{
+        font-size: 14px;
+        font-weight: bold;
+        padding: 2px 0 5px 0;
+        border-bottom: 1px dotted #ddd;
+    }
+
+    .rslides-wrapper{
+        border: 3px solid #BFA252;
+    }
+}
+
+
+
+/*------------------------------------------------------------
+fb
+------------------------------------------------------------*/
+#fb-root {
+    display: none;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}

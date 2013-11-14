@@ -1,0 +1,172 @@
+#conts {
+    float: right;
+}
+
+#sideBar {
+    float: left;
+}
+
+#nailImages li {
+    margin: 0 1%;
+    width: 31.3%;
+    float: left;
+}
+
+#nailImages li .image img{
+    width: 100%;
+}
+
+#nailImages{
+    margin: -15px auto 0;
+}
+
+#nailImages .image{
+    border: 1px solid #BDE5F9;
+    background-color: #F1FAFE;
+    padding: 2px;
+}
+
+#nailImages .new-icon{
+    text-align: right;
+    position: relative;
+    padding-right: 4px;
+    top: 19px;
+}
+
+#nailImages .new-icon img{
+    display: inline;
+}
+
+#conts .search select{
+    display: block;
+    width: 100%;
+}
+
+#conts .inner .photoBox {
+    float: left;
+    border: 3px solid #8CC9E2;
+    margin-right: 10px;
+}
+
+#conts .inner .photoBox img{
+    height: 121px;
+}
+
+#conts .inner {
+    background: url(/img/nailart/imgtext_bg.gif) repeat-x left top;
+    padding: 25px 10px 10px;
+}
+
+#conts .inner .textBox .title {
+    margin: 0 0 9px 0;
+}
+
+#conts .inner .textBox .title .name{
+    color:#008ACD;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#conts .inner .textBox .title .name a{
+    text-decoration: none;
+}
+
+#conts .inner .textBox .title .nameRome{
+    color:#008ACD;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+#conts .inner .textBox p {
+    margin-left: 11px;
+}
+
+.pager{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 5%;
+}
+
+.pager .prev a, .pager .next a{
+    display: block;
+    text-decoration: none;
+}
+
+.pager .prev{
+    float: left;
+}
+
+.pager .next{
+    float: right;
+}
+
+.btn .disable_link:parent { background-color: #fff; }
+
+@media only screen and (max-width: 740px){
+    #nailImages li {
+        width: 48%;
+        margin: -0.5% 1%;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    #nailImages li {
+        width: 98%;
+    }
+
+    #conts .inner .textBox .title .name{
+        font-size: 18px;
+    }
+}
+
+
+/* slide show */
+div.ps-toolbar .btn_icon{
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    background: url(/img/resp/toolbar-icon.png) no-repeat;
+}
+
+div.ps-toolbar .page{
+    cursor: pointer;
+}
+
+div.ps-toolbar .none .btn_icon{
+    display: none;
+}
+
+div.ps-toolbar .ps-toolbar-previous-disabled,
+div.ps-toolbar .ps-toolbar-next-disabled,
+div.ps-toolbar .disable
+{
+    filter: alpha(opacity=25);
+    -moz-opacity:0.25;
+    opacity:0.25;
+}
+
+div.ps-toolbar .prev.page .btn_icon{
+    background-position: 0 center;
+}
+
+div.ps-toolbar .ps-toolbar-close .btn_icon{
+    background-position: -44px center;
+}
+
+div.ps-toolbar .ps-toolbar-play .btn_icon{
+    background-position: -88px center;
+}
+
+div.ps-toolbar .ps-toolbar-previous .btn_icon{
+    background-position: -132px center;
+}
+
+div.ps-toolbar .ps-toolbar-next .btn_icon{
+    background-position: -176px center;
+}
+
+div.ps-toolbar .next.page .btn_icon{
+    background-position: -220px center;
+}

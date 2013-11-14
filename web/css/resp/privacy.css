@@ -1,0 +1,17 @@
+h4{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.content{
+	margin-left: 10px;
+}
+
+.content p{
+	margin-left: 10px;
+}
+
+.content ul{
+	margin: 10px 0 10px 15px;
+	color: #444;
+}

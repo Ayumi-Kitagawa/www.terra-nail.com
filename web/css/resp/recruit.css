@@ -1,0 +1,95 @@
+.content{
+    margin-bottom: 20px;
+}
+
+
+
+.content .blueSimpleBox .photoBox{
+    float: right;
+    width: 45%;
+    text-align: center;
+}
+
+.content .blueSimpleBox .textBox{
+    float: left;
+    width: 55%;
+}
+
+.content .blueSimpleBox .textBox p{
+    margin-bottom: 10px
+}
+
+.content .blueSimpleBox dt, .content .blueSimpleBox dd{
+    padding: 0 0 0 15px;
+}
+
+.content .blueSimpleBox dt{
+    background: url(/img/common/icon/icon01.png) no-repeat left 3px;
+    font-weight: bold;
+}
+
+.content .blueSimpleBox dd{
+    margin-bottom: 10px;
+}
+
+
+/*form*/
+.content .tableBox{
+    margin-top: 10px;
+}
+
+.content .tableBox .radio li {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    width: 85px;
+}
+
+.content .tableBox .thxMesasge{
+    text-align: center;
+    padding: 80px 0;
+
+}
+
+.content .tableBox .thxMesasge .title{
+    background-image: url(/img/resp/terra_flower.png), url(/img/resp/terra_flower.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    font-size: 24px;
+    font-weight: bold;
+    width: 180px;
+    margin: 0 auto 10px;
+    color: #0F91CF;
+}
+
+.content .tableBox .thxMesasge .msg{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+/*タイトルが折り返す*/
+@media only screen and (max-width: 680px){
+    .heading-color{
+        font-size: 14px;
+        -webkit-background-size: 20px, auto;
+        background-size: 20px, auto;
+        background-position: left top, bottom;
+        line-height: 16px;
+        padding: 1px 0 5px 22px;
+    }
+}
+
+/*写真のフロートをやめる*/
+@media only screen and (max-width: 639px){
+    .content .blueSimpleBox .photoBox{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content .blueSimpleBox .textBox{
+        float: none;
+        width: 100%;
+    }
+}

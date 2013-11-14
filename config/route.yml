@@ -1,0 +1,33 @@
+routes:
+  index:
+    route:          /:action
+    defaults:
+      module:       default
+      controller:   index
+      action:       index
+
+  track:
+    route:          /image/header-line280.js
+    defaults:
+      module:       default
+      controller:   track
+      action:       header
+
+#  sample:
+#    route:          /:placeholder/:controller/:action
+#    defaults:
+#      module:       default
+#      controller:   index
+#      action:       index
+#    reqs:
+#      placeholder:     '[a-z]{2}'
+
+#  regex_sample:
+#    type:         Zend_Controller_Router_Route_Regex
+#    route:        job-(\d+)/([^/]+)
+#    defaults:
+#      module:     default
+#      controller: job
+#    map:
+#      1:          job_id
+#      2:          action

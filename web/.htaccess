@@ -1,0 +1,11 @@
+RedirectMatch 301 ^/blue/ /
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -s
+RewriteRule ^.*$ - [NC,L]
+
+RewriteCond %{REQUEST_URI} ^/m/
+RewriteRule ^(.*)$ mobile_index.php [NC,L]
+
+RewriteRule ^.*$ index.php [NC,L]

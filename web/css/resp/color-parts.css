@@ -1,0 +1,36 @@
+.textBox{
+	width: 55%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.textBox p{
+	margin-bottom: 10px;
+}
+
+.color-photo{
+	text-align: center;
+	float: right;
+	width: 42%;
+	margin-left: 3%;
+}
+
+.collection{
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/*初回割引の枠を一列に*/
+@media only screen and (max-width: 479px){
+	.textBox{
+		float: none;
+		width: 100%;
+	}
+
+	.color-photo{
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+}

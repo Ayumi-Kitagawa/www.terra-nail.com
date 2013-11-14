@@ -1,0 +1,175 @@
+#conts .menu {
+    border: 1px solid #CCC;
+    padding: 3px;
+}
+
+#conts .menu, #conts .chip {
+    margin-bottom: 15px;
+}
+
+#conts .menu h3{
+    height: 74px;
+    background: url(/img/resp/menu/title_bg.png) repeat-x left top;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    padding-top: 14px;
+    padding-left: 14px;
+    color: #1A8DC2;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 58px;
+}
+
+#conts .menu .heading-color{
+    font-size: 14px;
+}
+
+#conts .menu h3 .thumb{
+    float: left;
+    margin-right: 20px;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.4);
+}
+
+#conts .menu .photo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#conts .menu .tableBox{
+    margin: 20px;
+}
+
+#conts .menu .tableBox .tableWrap{
+    margin: 0 1px;
+}
+
+#conts .menu .tableBox .tableWrap table{
+    width: 100%;
+}
+
+#conts .menu .tableBox .priv{
+    font-weight: bold;
+    padding: 4px 0;
+    text-indent: 19px;
+    line-height: 18px;
+    background: url(/img/resp/priv.png) no-repeat 1px 4px;
+}
+
+#conts .menu .tableBox th, #conts .menu .tableBox td{
+    padding: 5px;
+}
+
+#conts .menu .tableBox td{
+    width: 96px;
+    text-align: right;
+}
+
+#conts .menu .tableBox .title {
+    background: url(/img/menu/title_bg.gif) repeat left top;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#conts .menu .tableBox .title .png_bg {
+    background: url(/img/menu/title_span_bg.png) no-repeat 5px center;
+    padding: 3px 0 3px 29px;
+    line-height: 19px;
+}
+
+#conts .menu .tableBox .desc dt{
+    color: #008ACC;
+    font-weight: bold;
+}
+
+#conts .menu .tableBox .desc dt, #conts .menu .tableBox .desc dd{
+    padding: 3px 5px;
+}
+
+#conts .menu .tableBox .notice{
+    font-weight: normal;
+    font-size: 11px;
+    color: #555;
+}
+
+#conts .menu .tableBox .desc .notice{
+    margin-left: 10px;
+}
+
+
+#conts .menu .tableBox .photoBox{
+    float: left;
+    width: 34%;
+}
+
+#conts .menu .tableBox .textBox{
+    float: left;
+    width: 62%;
+    margin-left: 10px;
+}
+
+#conts .menu .tableBox .textBox p{
+    margin-top: 10px;
+    line-height: 20px
+}
+
+
+@media only screen and (max-width: 479px){
+    #conts .menu .tableBox .title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #conts .menu .tableBox{
+        margin: 20px 5px;
+    }
+
+    #conts .menu .tableBox .photoBox{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #conts .menu .tableBox .textBox{
+        float: none;
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #conts .menu .tableBox table, #conts .menu .tableBox tbody{
+        display: block;
+    }
+
+    #conts .menu .tableBox th, #conts .menu .tableBox td{
+        padding: 0;
+        border: none;
+    }
+
+    #conts .menu .tableBox tr{
+        content: "";
+        clear: both;
+        display: block;
+
+        padding: 3px 5px;
+        text-align: right;
+    }
+
+    #conts .menu .tableBox tr.back{
+        background-color: #f1f4f7;
+        border-bottom: 1px solid #e8eaed;
+        border-top: 1px solid #f7f9fc;
+    }
+
+    #conts .menu .tableBox td{
+        display: inline-block;
+    }
+
+    #conts .menu .tableBox td.price{
+        padding-left: 20px;
+    }
+}

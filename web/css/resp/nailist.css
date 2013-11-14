@@ -1,0 +1,122 @@
+/*------------------------------------------------------------
+  コンテンツ
+------------------------------------------------------------*/
+#conts {
+  float: right;
+}
+
+/*------------------------------------------------------------
+  サイドバー
+------------------------------------------------------------*/
+#sideBar {
+  float: left;
+}
+
+#conts .item {
+    border: 2px solid #88CEF4;
+    background: url(/img/nailist/inner_bg.jpg) repeat-x left top;
+    padding: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    max-width: 680px;
+    margin: 0 auto 20px;
+}
+
+#conts .photoBox{
+    float: left;
+    width: 45%;
+    max-width: 300px;
+}
+
+#conts .textBox{
+    float: left;
+    width: 49%;
+    margin-left: 30px;
+}
+
+#conts .photoBox .name{
+    color: #008ACD;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+    background: url(/img/nailist/text_bg.gif) no-repeat left 9px;
+    background-size:contain;
+}
+
+#conts .photoBox .jaName {
+    display: block;
+    font-size: 2.3em;
+    height: 36px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#conts .photoBox .enName {
+    display: block;
+    font-size: 1.7em;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#conts .positionImg{
+    position: absolute;
+    margin-top: -0.7px;
+    margin-left: -0.7px;
+    z-index: 1000;
+}
+
+#conts .nailist .photo{
+    background-image:url(/img/nailist/photo_back.png);
+    padding:9px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#conts .textBox .tabBox{
+    margin: 8px;
+    background:url(/img/resp/dotted-line.png) repeat-x bottom;
+    padding-bottom: 10px;
+}
+
+#conts .textBox table th {
+    color: #5AB3DF;
+    text-align: left;
+    width: 80px;
+    vertical-align: top;
+}
+
+#conts .textBox table th, #conts .textBox table td{
+    padding: 2px 0
+}
+
+#conts .textBox .pBox{
+    margin-bottom: 20px;
+}
+
+#conts .textBox .pBox .title{
+    float: left;
+    margin-right: 10px;
+}
+
+#conts .textBox .p-title{
+    background: url(/img/resp/p_title_bg.gif) repeat-x 80px center;
+}
+
+
+@media only screen and (max-width: 639px){
+    #conts .photoBox{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    #conts .textBox{
+        float: none;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+}

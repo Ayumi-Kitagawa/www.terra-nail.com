@@ -1,0 +1,65 @@
+#conts .photo {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#conts .inner {
+    padding-bottom: 40px;
+}
+
+#conts .none {
+    background: none;
+    margin-bottom: 36px;
+    padding-bottom: 0;
+}
+
+#conts .inner .photoBox {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#conts .inner .textBox {
+    float: right;
+    width: 72%;
+    padding-right: 3%;
+}
+
+#conts .inner .textBox h3 {
+    margin-bottom: 9px;
+}
+
+#conts .inner .textBox p {
+    margin: 0 6px;
+}
+
+/*info*/
+#conts .info .subInfo {
+    padding: 20px;
+}
+
+#conts .info .subInfo p{
+    margin-bottom: 15px;
+}
+
+#conts .info .subInfo .name{
+    text-align: right;
+    margin-bottom: 0;
+    background: url(/img/resp/color_line.png) top repeat-x;
+    line-height: 35px;
+}
+
+#conts .info .subInfo .photoBox {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 480px){
+    .small_on_mobile{
+        width: 50%;
+    }
+
+    #conts .info .subInfo {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,106 @@
+#conts .title {
+    background: url(/img/common/icon/icon03.gif) no-repeat left 6px;
+    color: #008ACC;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+#conts .title .name{
+    font-size: 23px;
+    line-height: 35px;
+}
+
+#conts .address dd {
+    color: #212121;
+    padding: 3px 10px;
+}
+
+#conts .map{
+    margin-top: 10px;
+}
+
+
+.shop_data h3{
+    background: url(/img/resp/salon/data_title_bg.png) repeat-x;
+    font-weight: bold;
+    color: #fff;
+    line-height: 17px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #eee;
+    padding: 0 10px;
+}
+
+.shop_data table{
+    width: 100%;   
+}
+
+.shop_data .table-wrap{
+    margin: 0 10px 15px;
+}
+
+.shop_data table th,.shop_data table td{
+    vertical-align:top;
+    padding: 5px 2px;
+    border-bottom: 1px dashed #ccc;
+    line-height: 22px;
+}
+
+.shop_data .small-h{
+    display: inline-block;
+    width: 92px;
+}
+
+.shop_data .sublink{
+    float: right;
+}
+
+.shop_data table th{
+    width: 55px;
+    font-weight: bold;   
+}
+
+.reserve-notice{
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.reserve-notice .textBox{
+    background: url(/img/resp/salon/reserve_notice_bg.png) repeat-x left top;
+}
+
+.reserve-notice .textBox{
+    padding: 10px;
+}
+
+.reserve-notice .textBox .textList{
+    margin: 10px 30px;
+}
+
+.reserve-notice .textBox .textList li{
+    list-style: disc outside;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.reserve-notice .textBox .textList li span {
+    color: #FF9226;
+    font-weight: bold;
+}
+
+br.auto{
+    display: none;
+}
+
+
+@media only screen and (max-width: 479px){
+    #conts .title .name{
+        font-size: 16px;
+    }
+
+    br.auto{
+        display: inline;
+    }
+}
